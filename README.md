@@ -18,8 +18,8 @@ Games ini ditujukan untuk kalangan Millenials dan Gen-Z yang berusia di antara 1
 
 ## Dokumentasi
 ### Use Case Diagram
-![Attis Odyssey Use Case](Documentations/Use Case.png)
+![Attis Odyssey Use Case Diagram](Documentation/Use Case.png)
 ### Class Diagram
-![Attis Odyssey Use Case](Documentations/Class Diagram.png)
+![Attis Odyssey Class Diagram](Documentations/Class Diagram.png)
 ### Activity Diagram
-![Attis Odyssey Use Case](Documentations/Activity.png)
+![Attis Odyssey Activity Diagram](Documentation/Activity.png)
