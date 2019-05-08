@@ -1,4 +1,4 @@
-# Attis_Odyssey
+# Attis Odyssey
 
 ## Latar Belakang
 Isu lingkungan merupakan salah satu isu yang paling banyak diperbincangkan di masa pemanasan global saat ini. Banyak cara yang telah diupayakan untuk memperlambat pemanasan global dan mengantisipasi dampak yang diakibatkannya, misalnya dengan bermunculan gerakan-gerakan go green. Akan tetapi, masih banyak orang yang kurang peduli dengan terjadinya pemanasan global.
