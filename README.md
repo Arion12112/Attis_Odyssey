@@ -16,3 +16,10 @@ Tokoh utama adalah seorang murid ahli tanaman yang dikirim ke sebuah desa, di de
 ## Ruang Lingkup
 Games ini ditujukan untuk kalangan Millenials dan Gen-Z yang berusia di antara 17-35 tahun.
 
+## Dokumentasi
+### Use Case Diagram
+![Attis Odyssey Use Case](Documentations/Use Case.png)
+### Class Diagram
+![Attis Odyssey Use Case](Documentations/Class Diagram.png)
+### Activity Diagram
+![Attis Odyssey Use Case](Documentations/Activity.png)
