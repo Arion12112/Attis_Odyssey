@@ -8,7 +8,7 @@ Pada saat ini, generasi millenials dan gen-Z memiliki kecenderungan yang tinggi 
 Mengenalkan berbagai jenis tanaman kepada pemain untuk membuat pemain peduli terhadap lingkungannya.
 
 ## Genre
-3D, RPG, Adventure
+3D, RPG, Adventure.
 
 ## Story
 Tokoh utama adalah seorang murid ahli tanaman yang dikirim ke sebuah desa, di desa ini penduduknya hampir tidak ada yang mengerti tentang tanaman yang menyebabkan desa ini gersang. Tugas tokoh utama adalah membuat penduduk desa mengerti betapa pentingnya tanaman untuk lingkungan hidup mereka, untuk merealisasikan itu tokoh utama harus meneliti tentang tanaman-tanaman yang ada di sekitar desa.
