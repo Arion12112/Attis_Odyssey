@@ -11,7 +11,7 @@ Mengenalkan berbagai jenis tanaman kepada pemain untuk membuat pemain peduli ter
 3D, RPG, Adventure.
 
 ## Story
-Tokoh utama adalah seorang murid ahli tanaman yang dikirim ke sebuah desa, di desa ini penduduknya hampir tidak ada yang mengerti tentang berbagai jenis tanaman yang menyebabkan desa ini gersang. Tugas tokoh utama adalah membuat penduduk desa mengerti betapa pentingnya tanaman untuk lingkungan hidup mereka, untuk merealisasikan itu tokoh utama harus meneliti tentang tanaman-tanaman yang ada di sekitar desa.
+Tokoh utama adalah seorang murid ahli tanaman yang dikirim ke sebuah desa, di desa ini penduduknya hampir tidak ada yang mengerti tentang berbagai jenis tanaman yang menyebabkan desa ini sangat gersang. Tugas tokoh utama adalah membuat penduduk desa mengerti betapa pentingnya tanaman untuk lingkungan hidup mereka, untuk merealisasikan itu tokoh utama harus meneliti tentang tanaman-tanaman yang ada di sekitar desa.
 
 ## Ruang Lingkup
 Games ini ditujukan untuk kalangan Millenials dan Gen-Z yang berusia di antara 17-35 tahun.
