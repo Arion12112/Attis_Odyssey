@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Glowing_Forest/DEMO/Demo_scene01.unity
+- path: Assets/Game/Menu/Menu.unity
   isLoaded: 1
   isActive: 1
