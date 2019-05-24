@@ -13,6 +13,7 @@ public class InventoryUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        inventoryUI.SetActive(!inventoryUI.activeSelf);
         inventory = Inventory.instance;
         inventory.OnitemChangedCallback += UpdateUI;
 
