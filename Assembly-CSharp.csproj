@@ -64,7 +64,9 @@
     <Compile Include="Assets\Game\Menu\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\Game\Menu\Scripts\CameraController.cs" />
     <Compile Include="Assets\Game\Menu\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\Game\Menu\Scripts\ChangeMusicVolume.cs" />
     <Compile Include="Assets\Game\Menu\Scripts\CharacterAnimator.cs" />
+    <Compile Include="Assets\Game\Menu\Scripts\ClickSound.cs" />
     <Compile Include="Assets\Game\Menu\Scripts\DragMe.cs" />
     <Compile Include="Assets\Game\Menu\Scripts\DragPanel.cs" />
     <Compile Include="Assets\Game\Menu\Scripts\DropMe.cs" />
@@ -86,6 +88,7 @@
     <Compile Include="Assets\InventorySlot.cs" />
     <Compile Include="Assets\InventoryUI.cs" />
     <None Include="Assets\Game\Menu\Fonts\Jupiter\LICENSE.txt" />
+    <None Include="Assets\Baker House\Readme.txt" />
     <None Include="Assets\Game\Menu\Textures and Sprites\SF UI\Background\LICENSE.txt" />
     <None Include="Assets\Game\Menu\Materials\UI-Default-No-Alpha.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
