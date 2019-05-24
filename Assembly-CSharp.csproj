@@ -60,6 +60,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Characters\CameraController2.cs" />
+    <Compile Include="Assets\Characters\MarioController.cs" />
     <Compile Include="Assets\Game\Menu\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\Game\Menu\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\Game\Menu\Scripts\CameraController.cs" />
