@@ -68,6 +68,7 @@
     <Compile Include="Assets\Game\Menu\Scripts\ChangeColor.cs" />
     <Compile Include="Assets\Game\Menu\Scripts\ChangeMusicVolume.cs" />
     <Compile Include="Assets\Game\Menu\Scripts\CharacterAnimator.cs" />
+    <Compile Include="Assets\Game\Menu\Scripts\CharacterStats.cs" />
     <Compile Include="Assets\Game\Menu\Scripts\ClickSound.cs" />
     <Compile Include="Assets\Game\Menu\Scripts\DragMe.cs" />
     <Compile Include="Assets\Game\Menu\Scripts\DragPanel.cs" />

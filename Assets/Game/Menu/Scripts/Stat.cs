@@ -2,17 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Stat : MonoBehaviour
+[System.Serializable]
+public class Stat
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int baseValue;
 
-    // Update is called once per frame
-    void Update()
+    public int GetValue()
     {
-        
+        return baseValue;
     }
+   
 }
