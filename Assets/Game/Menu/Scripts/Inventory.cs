@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Inventory : MonoBehaviour
 {
@@ -23,7 +24,7 @@ public class Inventory : MonoBehaviour
     public delegate void OnItemChanged();
     public OnItemChanged OnitemChangedCallback;
 
-    public int space = 20;
+    private int space = 7;
 
     public List<Item> items = new List<Item>();
 
@@ -31,9 +32,9 @@ public class Inventory : MonoBehaviour
     {
         if (!item.isDefaultItem)
         {
-            if(items.Count >= space)
+            if(items.Count == space)
             {
-                Debug.Log("Not enough room.");
+                SceneManager.LoadScene("Win");
                 return false;
             }
             items.Add(item);

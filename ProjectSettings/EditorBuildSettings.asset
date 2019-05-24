@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Main.unity
     guid: d56d22501d27bea4887e67a59098bdfb
+  - enabled: 1
+    path: Assets/Game/Lose.unity
+    guid: f69483062c5b7ca488163cb938394717
+  - enabled: 1
+    path: Assets/Game/Win.unity
+    guid: e837447a4107a0942bc16d3b92be4285
   m_configObjects: {}

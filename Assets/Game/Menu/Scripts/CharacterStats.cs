@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterStats : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class CharacterStats : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.T))
         {
-            TakeDamage(10);
+            TakeDamage(100);
         }
     }
 
@@ -29,6 +30,7 @@ public class CharacterStats : MonoBehaviour
         Debug.Log(transform.name + "takes" + damage + "damage.");
         if (currentHealth <= 0)
         {
+            SceneManager.LoadScene("Lose");
             //Die();
         }
     }

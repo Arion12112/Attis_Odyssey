@@ -3231,7 +3231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Volume: {fileID: 1713607833}
-  myMusic: {fileID: 459599776}
+  myMusic: {fileID: 866605973}
 --- !u!1001 &470761372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3360,7 +3360,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 486387488}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7349d747f0bb3a94dba5ea67234544d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 256c8ce62da492d499b4078414a2d1d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &486387491
@@ -3403,17 +3403,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 486387490}
-        m_MethodName: Quit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1413532583}
         m_MethodName: PlayOneShot
         m_Mode: 2
@@ -3421,6 +3410,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 8300000, guid: 8208cb4551ab2e44686a7946d07af634,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 486387490}
+        m_MethodName: LoadByIndex
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -16571,7 +16571,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Quit
+  m_Text: Back to Main Menu
 --- !u!222 &2008135545
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16779,7 +16779,6 @@ GameObject:
   - component: {fileID: 2032080233}
   - component: {fileID: 2032080232}
   - component: {fileID: 2032080231}
-  - component: {fileID: 2032080230}
   m_Layer: 5
   m_Name: ResumeButton
   m_TagString: Untagged
@@ -16787,18 +16786,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2032080230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2032080229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 256c8ce62da492d499b4078414a2d1d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2032080231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16839,17 +16826,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2032080230}
-        m_MethodName: LoadByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1413532583}
         m_MethodName: PlayOneShot
         m_Mode: 2
@@ -16857,6 +16833,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 8300000, guid: 8208cb4551ab2e44686a7946d07af634,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 727618921}
+        m_MethodName: Resume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
