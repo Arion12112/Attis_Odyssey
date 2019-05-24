@@ -24,15 +24,18 @@ public class Inventory : MonoBehaviour
     public delegate void OnItemChanged();
     public OnItemChanged OnitemChangedCallback;
 
-    private int space = 7;
+    private int space = 1;
 
     public List<Item> items = new List<Item>();
 
+
+
+  
     public bool Add (Item item)
     {
         if (!item.isDefaultItem)
         {
-            if(items.Count == space)
+            if(items.Count >= space)
             {
                 SceneManager.LoadScene("Win");
                 return false;
