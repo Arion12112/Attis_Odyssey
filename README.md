@@ -20,6 +20,6 @@ Games ini ditujukan untuk kalangan Millenials dan Gen-Z yang berusia di antara 1
 ### Use Case Diagram
 ![Attis Odyssey Use Case Diagram](https://github.com/Arion12112/Attis_Odyssey/blob/master/Documentation/usecase.png)
 ### Class Diagram
-![Attis Odyssey Class Diagram](https://github.com/Arion12112/Attis_Odyssey/blob/master/Documentation/Class%20Diagram.png)
+![Attis Odyssey Class Diagram](https://github.com/Arion12112/Attis_Odyssey/blob/master/Documentation/class.png)
 ### Activity Diagram
 ![Attis Odyssey Activity Diagram](https://github.com/Arion12112/Attis_Odyssey/blob/master/Documentation/activity.png)
